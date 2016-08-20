@@ -1,15 +1,14 @@
 #include<iostream>
 #include<stdlib.h>
-#include<stdlib.h>
 #include<string.h>
 using namespace std;
-
 struct node 
 {
   int data;
   struct node *next;     
 };
 typedef struct node NODE;
+
 NODE* search(NODE* first,int item);
 NODE* insert(NODE *node,int);
 NODE* deletenode(NODE *first,NODE *node);
